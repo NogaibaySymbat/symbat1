@@ -2,11 +2,13 @@ package se2402;
 import java.util.Scanner;
 
 public class Fibonacci {
+    //Complexity: exponential - 0(2^n)
     public static int fibonacci(int n) {
         if (n == 0) return 0;
         if (n == 1) return 1;
         return fibonacci(n - 1) + fibonacci(n - 2);
     }
+    //Complexity: exponential - 0(2^n)
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();

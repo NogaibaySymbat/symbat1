@@ -2,6 +2,7 @@ package se2402;
 import java.util.Scanner;
 
 public class Min {
+    //Complexity: linear - 0(N)
     public static int findMin (int[] array) {
         int min = array[0];
         for (int i=1; i<array.length; i++) {
@@ -11,6 +12,7 @@ public class Min {
         }
         return min;
     }
+    //Complexity: linear - 0(N)
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
